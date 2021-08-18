@@ -1,5 +1,5 @@
 {% set name = "readstat" %}
-{% set version = "1.1.6" %}
+{% set version = "1.1.7" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/WizardMac/ReadStat/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 88812723a13438366d31d3617d4a9c34fa75347f8b071a7dead5fc8d858ab114
+  sha256: c1cf06c5b9347cbbaf63525a0fa9c2ddb6d927685883003b46431e995755392b
 
 build:
   skip: true  # [win]
@@ -37,7 +37,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Command-line tool (+ C library) for converting SAS, Stata, and SPSS files'
+  summary: Command-line tool (+ C library) for converting SAS, Stata, and SPSS files
 
 extra:
   recipe-maintainers:
