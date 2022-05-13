@@ -1,5 +1,5 @@
 {% set name = "readstat" %}
-{% set version = "1.1.7" %}
+{% set version = "1.1.8" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/WizardMac/ReadStat/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: c1cf06c5b9347cbbaf63525a0fa9c2ddb6d927685883003b46431e995755392b
+  sha256: 814d4f4900d8b7a31989e4adcbaed79a480bdf09b3c72225cf9b9e5bec36b831
 
 build:
   skip: true  # [win]
